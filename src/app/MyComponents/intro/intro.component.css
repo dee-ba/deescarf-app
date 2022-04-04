@@ -69,3 +69,39 @@
     padding: 5px;
 }
 
+@media (max-width: 1017px){
+   
+
+    p {
+        font-size: 12px;
+    }
+    .main-container-1 {
+        border: #C195AD 5px solid;
+        width: 90%;
+        height: 400px;
+        margin: 0  auto;
+        margin-top: 80px;
+        display: flex;
+        margin-bottom: 10px;
+        padding-top: -900px;
+
+    } 
+    .main-image {
+        
+        width: 500px;
+        height: 250px;  
+        padding: 1px;
+    }
+
+    .description-1 {
+      
+        width: 500px;
+        height: 100px;
+        margin: 50px;
+        border: #b9fbc0 3px solid; 
+
+
+
+    } 
+
+}

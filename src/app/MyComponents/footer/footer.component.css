@@ -2,3 +2,23 @@
     border: green solid 3px;
 } */
 
+footer {
+    background-color: rgb(193, 149, 173) ;
+    color: white;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0.100fr 0.100fr 0.100fr;
+    grid-gap: 1px;
+    font-size: 20px;
+    padding: 30px ;
+    
+  } 
+
+
+  @media (max-width: 1017px){
+    footer {
+            
+        grid-template-columns: 0.07fr 2fr 0.07fr 0.4fr 0.4fr 0.4fr;                  
+      } 
+       
+}
