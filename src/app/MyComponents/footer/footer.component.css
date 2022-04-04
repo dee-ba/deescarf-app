@@ -18,7 +18,9 @@ footer {
   @media (max-width: 1017px){
     footer {
             
-        grid-template-columns: 0.07fr 2fr 0.07fr 0.4fr 0.4fr 0.4fr;                  
+        grid-template-columns: 1fr 1fr .5fr 0.3fr 0.3fr 0.3fr;  
+        font-size: 10px;   
+        color: rgb(39, 15, 111);             
       } 
        
 }

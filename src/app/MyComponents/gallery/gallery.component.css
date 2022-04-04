@@ -40,5 +40,8 @@
 
 
 @media (max-width: 1017px){
-
+    .box-gallery {
+        height: 1100px;
+    }
+    
 }

@@ -4,47 +4,49 @@
     margin-left: 500px;
 } */
 
-
 .main-container-1 {
     border: #C195AD 5px solid;
-    width: 80%;
-    height: 600px;
+    width: 50%;
+    height: 500px;
     margin: 0  auto;
-    margin-top: 10px;
-    padding: 0 50px;
+    margin-top: 80px;
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
+    padding-top: -900px;
 
 
 } 
 
- .main-container-1 div {
-    border: rgb(182, 19, 81) 5px solid;
-} 
 
- .main-image  {
-    text-align: center;
-    margin-top: 50px;
-    margin-left: 20px; 
-    margin-right: 20px;
-    align-self: center;
-    width: 400px;
-    height: 400px;  
-} 
-
-.description-1-images  {
-    width: 10%;
-    height: 40px;
-    margin: 15px;
-    padding: 1px;
-    border: #b9fbc0 3px solid; 
-} 
-
-.btn-add {
-    background-color: pink ;
-    border: none;
-    margin: 100px;
+.main-image {
+  margin: 50px;
+   
+   
 }
+
+.description-1 {
+
+    width: 500px;
+    height: 100px;
+    margin: 50px;
+
+} 
+
+
+h2 {
+    padding-top: 100px;
+    font-size: 20px;
+    color: maroon;
+    text-align: center; 
+    
+}
+
+p {
+    font-size: 10px;
+    text-align: center;
+   
+}
+
 
 .btn-info {
     background-color: pink ;
@@ -52,24 +54,63 @@
     margin: 100px;
 }
 
- .description-1 {
-    text-align: center;
-    /* margin-top: 50px;
-    margin-left: 20px; 
-    margin-right: 20px; */
-    align-self: center;
-    width: 800px;
-    height: 300px; 
-       
-} 
 
- .description-1 h2 {
-    font-size: 20px;
-    color: maroon;
-    text-align: center; 
-    padding: 5px;
-}
+
 
 @media (max-width: 1017px){
-
+    .main-container-1 {
+        border: #C195AD 5px solid;
+        width: 80%;
+        height: 450px;
+        margin: 0  auto;
+        margin-top: 10px;
+        padding: 0 50px;
+        display: flex;
+        margin-bottom: 100px;
+    } 
+    
+     .main-container-1 div {
+        border: rgb(182, 19, 81) 5px solid;
+        height: 230px;
+        width: 200px;
+    } 
+    
+     .main-image  {
+        margin-top: 50px;
+        margin-left: 1px; 
+        margin-right: 1px;
+        align-self: center;
+        width: 100px;
+        height:100px;  
+    } 
+  
+           
+    
+    
+     .description-1 h2 {
+        font-size: 14px;
+        color: maroon;
+        text-align: center; 
+        padding: 5px;
+    }
+    p {
+        font-size: 10px;
+        text-align: center;
+        color:rgb(182, 19, 81)
+    }   
+    .description-1-images  {
+        width: 10%;
+        height: 40px;
+        margin: 15px;
+        padding: 1px;
+        border: #b9fbc0 3px solid; 
+    } 
+    
+    .btn-info {
+        background-color: pink ;
+        border: none;
+        margin: 100px;
+        font-size: 12px;
+        
+    }
 }

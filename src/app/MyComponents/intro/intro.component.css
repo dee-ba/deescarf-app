@@ -10,18 +10,18 @@
     height: 600px;
     margin: 0  auto;
     margin-top: 10px;
-    padding: 50px;
+    padding: 0 50px;
     display: flex;
     margin-bottom: 100px;
 
 
 } 
 
- /* .main-container-1 div {
+ .main-container-1 div {
     border: rgb(182, 19, 81) 5px solid;
-}  */
+} 
 
- /* .main-image  {
+ .main-image  {
     text-align: center;
     margin-top: 50px;
     margin-left: 20px; 
@@ -29,29 +29,8 @@
     align-self: center;
     width: 800px;
     height: 500px;  
-}  */
-
-.description-1-images  {
-    width: 10%;
-    height: 40px;
-    margin: 15px;
-    padding: 1px;
-    border: #b9fbc0 3px solid; 
 } 
-
-.btn-add {
-    background-color: pink ;
-    border: none;
-    margin: 100px;
-}
-
-.btn-info {
-    background-color: pink ;
-    border: none;
-    margin: 100px;
-}
-
- .description-1 {
+.description-1 {
     text-align: center;
     /* margin-top: 50px;
     margin-left: 20px; 
@@ -68,40 +47,90 @@
     text-align: center; 
     padding: 5px;
 }
+p {
+    font-size: 16px;
+    text-align: center;
+    color:rgb(182, 19, 81)
+   
+} 
+
+.description-1-images  {
+    width: 10%;
+    height: 40px;
+    margin: 15px;
+    padding: 1px;
+    border: #b9fbc0 3px solid; 
+} 
+
+.btn-add {
+    background-color: pink ;
+    border: none;
+    margin: 100px;
+}
+
 
 @media (max-width: 1017px){
-   
-
-    p {
-        font-size: 12px;
-    }
     .main-container-1 {
         border: #C195AD 5px solid;
         width: 90%;
         height: 400px;
         margin: 0  auto;
-        margin-top: 80px;
+        margin-top: 10px;
+        padding: 0 50px;
         display: flex;
-        margin-bottom: 10px;
-        padding-top: -900px;
-
+        margin-bottom: 100px;
+    
+    
     } 
-    .main-image {
-        
-        width: 500px;
-        height: 250px;  
-        padding: 1px;
-    }
-
+    
+     .main-container-1 div {
+        border: rgb(182, 19, 81) 5px solid;
+    } 
+    
+     .main-image  {
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 20px; 
+        margin-right: 20px;
+        align-self: center;
+        width: 100px;
+        height:100px;  
+    } 
     .description-1 {
-      
+        text-align: center;
+        /* margin-top: 50px;
+        margin-left: 20px; 
+        margin-right: 20px; */
+        align-self: center;
         width: 500px;
-        height: 100px;
-        margin: 50px;
-        border: #b9fbc0 3px solid; 
-
-
-
+        height: 300px; 
+           
     } 
-
-}
+    
+     .description-1 h2 {
+        font-size: 14px;
+        color: maroon;
+        text-align: center; 
+        padding: 5px;
+    }
+    p {
+        font-size: 10px;
+        text-align: center;
+        color:rgb(182, 19, 81)
+    }   
+    .description-1-images  {
+        width: 10%;
+        height: 40px;
+        margin: 15px;
+        padding: 1px;
+        border: #b9fbc0 3px solid; 
+    } 
+    
+    .btn-add {
+        background-color: pink ;
+        border: none;
+        margin: 100px;
+        font-size: 10px;
+    }
+    
+  }
