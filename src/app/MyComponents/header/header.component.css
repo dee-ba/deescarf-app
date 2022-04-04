@@ -1,16 +1,83 @@
-
 .company-name {
     font-size: 50px;
     color: white;
 }
 
-/* .buttons {
-    color: red;
-    border: red 3px solid;
+
+
+ol {
     list-style-type: none;
     display: flex;
     justify-content:space-around;
     flex-wrap: wrap;
+    font-size: 18px;
+    padding-left: 390px;
     
-} */
+}
 
+button {
+    background-color:  #d8a7af;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    font-size: 18px;
+    margin: 20px;
+    color: white;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+a:hover {
+    color: pink;
+    background-color: white;
+    cursor: pointer;
+    
+    
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: scale-down;
+    
+}
+
+.logo {
+    
+        width: 150px;
+    
+
+}
+
+.icons {
+    font-family: 'Material Icons';
+}
+
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 15vh;
+    background-color:#C195AD;
+    padding: 80px;
+    color: white;
+    width: 100%;
+    padding-right: 10px;
+    /* padding-right: 10px; enabled the menu to move to the right */
+   
+
+}
