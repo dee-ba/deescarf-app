@@ -1,5 +1,41 @@
-.box {
+/* .box {
     height: 400px;
     width: 500px;
     margin-left: 500px;
+} */
+
+
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    font-family: cursive;
 }
+
+.box-gallery {
+    border: rgb(213, 174, 195) 10px solid;
+    height: 400px;
+    background-color: white;
+    margin: 60px;
+}
+
+   
+.container {
+    width: 95%;
+    height: 200px;
+    margin: 10px auto;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.container img {
+
+    width: 100px;
+    height: 100px;
+    background-color: rgb(193, 149, 173);
+} 
+
+
