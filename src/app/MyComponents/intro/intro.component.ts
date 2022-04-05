@@ -12,4 +12,10 @@ export class IntroComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  add(name:string):void {
+    alert(`Item Added to your basket, Happy Shopping`)
+  }
+
+ 
+
 }
