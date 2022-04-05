@@ -32,14 +32,20 @@
 } 
 .description-1 {
     text-align: center;
-    /* margin-top: 50px;
+    margin-top: 50px;
     margin-left: 20px; 
-    margin-right: 20px; */
+    margin-right: 20px;
     align-self: center;
     width: 800px;
     height: 300px; 
        
 } 
+
+.description-1 :nth-child(7) {
+    margin-top: -100px;
+    color: black;
+    width: 200px;
+}
 
  .description-1 h2 {
     font-size: 20px;
@@ -90,7 +96,7 @@ p {
      .main-image  {
         text-align: center;
         margin-top: 50px;
-        margin-left: 20px; 
+        margin-left: 2px; 
         margin-right: 20px;
         align-self: center;
         width: 100px;
@@ -98,14 +104,19 @@ p {
     } 
     .description-1 {
         text-align: center;
-        /* margin-top: 50px;
-        margin-left: 20px; 
-        margin-right: 20px; */
+        margin-top: 50px;
+        margin-left: 1px; 
+        margin-right: 20px; 
         align-self: center;
         width: 500px;
-        height: 300px; 
+        height: 250px; 
            
     } 
+    .description-1 :nth-child(7) {
+        margin-top: -100px;
+        color: black;
+        width: 50px;
+    }
     
      .description-1 h2 {
         font-size: 14px;
