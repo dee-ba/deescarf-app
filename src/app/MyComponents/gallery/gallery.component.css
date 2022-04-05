@@ -22,9 +22,8 @@
    
 .container {
     width: 95%;
-    height: 200px;
-    margin: 10px auto;
-    margin-bottom: 100px;
+    height: 300px;
+    margin-left: 80px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -41,7 +40,18 @@
 
 @media (max-width: 1017px){
     .box-gallery {
-        height: 1100px;
+        height: 1050px;
     }
+
+    .container {
+        width: 95%;
+        height: 350px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    
     
 }
