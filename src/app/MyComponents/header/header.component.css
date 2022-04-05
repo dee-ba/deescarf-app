@@ -1,3 +1,6 @@
+
+
+
 .company-name {
     font-size: 50px;
     color: white;
@@ -15,8 +18,13 @@ ol {
     
 }
 
+
 button {
-    background-color:  #d8a7af;
+    background-color:  white;
+    color: #50394c;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: #50394c 3px solid;
 }
 
 
@@ -27,9 +35,8 @@ ul {
     flex-wrap: wrap;
     font-size: 18px;
     margin: 20px;
-    color: white;
+    color: #b2b2b2;
 }
-
 
 a {
     text-decoration: none;
@@ -72,7 +79,7 @@ header {
     flex-direction: column;
     justify-content: space-evenly;
     height: 15vh;
-    background-color:#C195AD;
+    background-color:#50394c;
     padding: 80px;
     color: white;
     width: 100%;
