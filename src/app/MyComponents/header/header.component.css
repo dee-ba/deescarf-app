@@ -15,18 +15,9 @@ ol {
     flex-wrap: wrap;
     font-size: 18px;
     padding-left: 390px;
+    color: #b2b2b2;
     
 }
-
-
-button {
-    background-color:  white;
-    color: #50394c;
-    font-size: 18px;
-    text-transform: uppercase;
-    border: #50394c 3px solid;
-}
-
 
 ul {
     list-style-type: none;
@@ -119,17 +110,21 @@ header {
         
     }
 
+
+
     ul {
         font-size: 14px;
         width: 300px;
-        margin-left: -100px;        
+        margin-left: -50px; 
+        color: #b2b2b2;       
     }
 
     ol {
-        
+    
         font-size: 14px;
         padding-left: 15px;
         margin: 30px;
+        color: #b2b2b2;
 }
 
 li {
